@@ -114,20 +114,19 @@ button.button-card{
 button.button-card:hover{
     background: #000 !important;
     color: white !important;
-      
-}
-
-#btn1{
-    top:73%;
-    left:46%;
-    background: linear-gradient(to left, #b0cadd 50%, white 50%);
-    color: black;
 }
 
 #btn2{
-    top:145%;
-    left:46.155%;
+    top:78%;
+    left:46%;
     background: white;
+    color: black;
+}
+
+#btn1{
+    top:145%;
+    left:46%;
+    background: linear-gradient(to left, #b0cadd 50%, white 50%);
     color: black;
 }
 
