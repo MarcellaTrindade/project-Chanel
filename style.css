@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 * {
     padding: 0 auto;
     margin: 0 auto;
@@ -7,24 +13,160 @@
 
 }
 
-html, body {
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
     overflow-x: hidden;
 }
 
-h1 {
-    font-size: 48px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
 }
 
-.top-black {
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+button {
+    position: absolute;
+    z-index: 1;
+    border: none;
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.295);
+}
+
+button.button-card:hover {
+    background: #000 !important;
+    color: white !important;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.topper {
+    border-top: .5rem solid #000;
+}
+
+.nav-item {
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    min-width: 2.25rem;
+    padding: .75rem .5rem 1rem;
+    position: relative;
     width: 100%;
-    height: .5rem;
-    background-color: black;
 }
 
-.icons {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
+.nav,
+.nav li {
+    display: flex;
+}
+
+.nav-left {
+    align-items: center;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 60.0625rem) {
+    .container {
+        margin: 0 auto;
+        max-width: 83.875rem;
+        overflow: hidden;
+        padding-left: 8.0555555556%;
+        padding-right: 8.0555555556%;
+    }
+}
+
+@media screen and (min-width: 60.0625rem) {
+
+    .header__primary,
+    .header__primary__links {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.nav-center {
+    align-items: center;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav-right {
+    align-items: center;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-end;
 }
 
 .logo ul {
@@ -40,10 +182,15 @@ h1 {
     align-items: stretch;
 }
 
-.icons li {
-    padding: .5em;
-    float: right;
+.nav {
+    align-items: stretch;
 }
+
+.container {
+    box-sizing: initial;
+
+}
+
 
 .links ul {
     list-style: none;
@@ -90,56 +237,22 @@ h1 {
     left: 0;
 }
 
-
-link.icon-link {
-    border-radius: 100%;
-}
-
-
-.section-img img{
+.section-img img {
     width: 100%;
-    transform:matrix(1.01449, 0, 0, 1.01449, 0, -6)
-}
-
-button.button-card{
-    position:absolute;
-    z-index:1;
-    border: none;
-    width: 10em;
-    height: 3em;
+    transform: matrix(1.01449, 0, 0, 1.01449, 0, 0);
     cursor: pointer;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.295);
 }
 
-button.button-card:hover{
-    background: #000 !important;
-    color: white !important;
-}
-
-#btn2{
-    top:78%;
-    left:46%;
+#btn2 {
+    top: 78%;
+    left: 46%;
     background: white;
     color: black;
 }
 
-#btn1{
-    top:145%;
-    left:46%;
+#btn1 {
+    top: 145%;
+    left: 46%;
     background: linear-gradient(to left, #b0cadd 50%, white 50%);
     color: black;
 }
-
-body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: white;        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgb(218, 218, 218);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid white;  /* creates padding around scroll thumb */
-  }
