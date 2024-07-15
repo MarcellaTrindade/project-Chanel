@@ -1,0 +1,33 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-logo,
+.footer-logo-img {
+    display: flex;
+}
+
+.footer-logo-img img {
+    padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 83.875rem;
+    overflow: hidden;
+    padding-left: 8.0555555556%;
+    padding-right: 8.0555555556%;
+    display: flex;
+}
+
+.footer-container h2 {
+    text-transform: uppercase;
+}
+
+.footer-container a {
+    color: white;
+    font-weight: 100;
+}

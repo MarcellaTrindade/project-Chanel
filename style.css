@@ -12,6 +12,7 @@
     font-family: 'Josefin Sans', sans-serif;
 
 }
+
 html,
 body {
     overflow-x: hidden;
@@ -36,6 +37,15 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     unicode-bidi: isolate;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
