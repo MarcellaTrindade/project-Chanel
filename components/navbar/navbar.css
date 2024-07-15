@@ -1,0 +1,51 @@
+@media screen and (min-width: 60.0625rem) {
+    .header-primary{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.links ul {
+    list-style: none;
+    width: max-content;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+
+.links {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+}
+
+.links li {
+    padding-inline: .5em;
+
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    position: relative;
+}
+
+.menu-link::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -.25rem;
+    left: 50%;
+    transition: width .4s, left .4s;
+}
+
+.menu-link:hover::before {
+    width: 100%;
+    left: 0;
+}
