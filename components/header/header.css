@@ -2,21 +2,14 @@
     border-top: .5rem solid #000;
 }
 
-
-.nav {
-    align-items: stretch;
-}
-
 .container {
     box-sizing: initial;
 
 }
 
-.nav-item {
+.nav {
     align-items: center;
     display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
     justify-content: center;
     min-width: 2.25rem;
     padding: .75rem .5rem 1rem;
@@ -64,6 +57,30 @@
     display: flex;
     flex-basis: 0;
     flex-grow: 1;
-    flex-shrink: 0;
     justify-content: flex-end;
+}
+
+@media screen and (min-width: 60.0625rem) {
+
+    .nav .nav-left,
+    .nav .nav-right {
+        min-width: 9.375rem;
+    }
+}
+
+.nav-item {
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    min-width: 2.25rem;
+    padding: .75rem .5rem 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.nav-item {
+    padding-bottom: 1.25rem;
+    padding-top: 1.875rem;
 }
