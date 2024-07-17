@@ -32,14 +32,12 @@
     white-space: nowrap;
 }
 
-@media screen and (min-width: 60.0625rem) {
-    .container {
-        margin: 0 auto;
-        max-width: 83.875rem;
-        overflow: hidden;
-        padding-left: 8.0555555556%;
-        padding-right: 8.0555555556%;
-    }
+.container {
+    margin: 0 auto;
+    max-width: 83.875rem;
+    overflow: hidden;
+    padding-left: 8.0555555556%;
+    padding-right: 8.0555555556%;
 }
 
 .nav-center {
@@ -60,12 +58,9 @@
     justify-content: flex-end;
 }
 
-@media screen and (min-width: 60.0625rem) {
-
-    .nav .nav-left,
-    .nav .nav-right {
-        min-width: 9.375rem;
-    }
+.nav .nav-left,
+.nav .nav-right {
+    min-width: 9.375rem;
 }
 
 .nav-item {
