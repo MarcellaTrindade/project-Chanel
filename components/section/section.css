@@ -32,3 +32,15 @@
 .article-list {
     padding: 0;
 }
+
+.btn-article{
+    padding: 1rem;
+}
+
+.article-link{
+    padding: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+}
