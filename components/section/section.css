@@ -6,7 +6,11 @@
     width: 100%;
     height: 26.813rem;
     object-fit: cover;
-    object-position: center;
+    object-position:center;
+}
+
+.img-top img{
+    object-position:top !important;
 }
 
 .black-line {
@@ -23,10 +27,12 @@
 .article-context {
     padding: 1em;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .article-context h1 {
     font-size: 1.5rem;
+    
 }
 
 .article-list {
@@ -43,4 +49,5 @@
     background-color: black;
     color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    cursor: pointer;
 }
