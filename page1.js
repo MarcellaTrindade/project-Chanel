@@ -1,4 +1,3 @@
-
 function loadComponent(elementId, componentPath, cssPath) {
     fetch(componentPath)
         .then(response => response.text())
@@ -22,5 +21,5 @@ document.addEventListener("DOMContentLoaded", () => {
     loadComponent("navbar", "components/navbar/navbar.html", "components/navbar/navbar.css", "/style.css");
     loadComponent("header", "components/header/header.html", "components/header/header.css", "/style.css");
     loadComponent("footer", "components/footer/footer.html", "components/footer/footer.css", "/style.css");
-    loadComponent("section", "components/section/section.html", "components/section/section.css", "/style.css");
+    loadComponent("section", "pages/alta costura/section.html", "pages/alta costura/section.css");
 });
