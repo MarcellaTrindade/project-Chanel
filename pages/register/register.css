@@ -12,15 +12,24 @@
     font-size: 3rem;
 }
 
+.form{
+    display: grid;
+    width: 30rem;
+}
+
 .form input {
     background-color: transparent;
     color: black;
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 0.06rem solid black;
     padding: 1rem;
     width: 100%;
     font-size: 1rem;
+}
+
+.form input:focus {
+    border-bottom: 0.19rem solid black;
 }
 
 .form-type {
@@ -30,10 +39,32 @@
 }
 
 .form-type li {
-    padding-inline: 1rem;
+    text-align: center;
+    width: 100%;
     font-size: 1.5rem;
 }
 
 .active {
     border-bottom: .2rem solid black;
+}
+
+.password-text{
+    padding: 1rem;
+    display: none;
+}
+
+.tel{
+    display: flex;
+    width: 100%;
+}
+
+.code{
+    max-width: 30%;
+    margin-right: 2rem;
+}
+
+.option{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
 }

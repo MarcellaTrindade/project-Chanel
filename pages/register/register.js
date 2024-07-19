@@ -23,3 +23,16 @@ document.addEventListener("DOMContentLoaded", () => {
     loadComponent("footer", "/components/footer/footer.html", "/components/footer/footer.css");
     loadComponent("section", "/components/section/section.html", "/components/section/section.css");
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var passwordInput = document.getElementById('password');
+    var container = document.querySelector('.password-text');
+
+    passwordInput.addEventListener('focus', function() {
+        container.style.display = 'block';
+    });
+
+    passwordInput.addEventListener('blur', function() {
+        container.style.display = 'none';
+    });
+});
