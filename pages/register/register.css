@@ -17,7 +17,7 @@
     width: 30rem;
 }
 
-.form .input {
+.input {
     background-color: transparent;
     color: black;
     outline: none;
@@ -30,7 +30,7 @@
     margin-bottom: 1.5rem;
 }
 
-.form .input:focus {
+.input:focus {
     border-bottom: 0.19rem solid black;
 }
 
@@ -121,4 +121,45 @@
     background-color: black;
     font-size: 1.5rem;
     border: none;
+}
+
+.sec-text{
+    padding-top: 1rem;
+    display: grid;
+}
+
+.sec-links{
+    display: flex;
+    padding-top: 1rem;
+    margin: 0;
+    
+}
+
+.sec-links a{
+    text-decoration: underline;
+}
+
+.input-sec{
+    width: 50% !important;
+    margin: 0;
+}
+
+.input-sec:hover{
+    border-bottom: 0.19rem solid black;
+}
+
+.sec-div{
+    display: flex;
+    margin-top: 1rem;
+}
+.search-icon{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.icon{
+    margin: 0;
+    display: flex;
 }
