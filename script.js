@@ -1,4 +1,3 @@
-
 function loadComponent(elementId, componentPath, cssPath) {
     fetch(componentPath)
         .then(response => response.text())

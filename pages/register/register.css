@@ -1,0 +1,39 @@
+.section-container {
+    display: flex;
+    padding: 2rem;
+}
+
+.form-title {
+    text-align: center;
+    padding: 1rem;
+}
+
+.form-title h1 {
+    font-size: 3rem;
+}
+
+.form input {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.form-type {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.form-type li {
+    padding-inline: 1rem;
+    font-size: 1.5rem;
+}
+
+.active {
+    border-bottom: .2rem solid black;
+}
