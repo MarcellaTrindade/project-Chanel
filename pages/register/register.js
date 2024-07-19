@@ -24,15 +24,15 @@ document.addEventListener("DOMContentLoaded", () => {
     loadComponent("section", "/components/section/section.html", "/components/section/section.css");
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var passwordInput = document.getElementById('password');
     var container = document.querySelector('.password-text');
 
-    passwordInput.addEventListener('focus', function() {
+    passwordInput.addEventListener('focus', function () {
         container.style.display = 'block';
     });
 
-    passwordInput.addEventListener('blur', function() {
+    passwordInput.addEventListener('blur', function () {
         container.style.display = 'none';
     });
 });
