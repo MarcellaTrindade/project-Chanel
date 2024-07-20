@@ -3,6 +3,10 @@
     padding: 2rem;
 }
 
+
+.login a, .register a{
+    color: black;
+}
 .form-title {
     text-align: center;
     padding: 1rem;
@@ -162,4 +166,11 @@
 .icon{
     margin: 0;
     display: flex;
+}
+
+
+.text{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
