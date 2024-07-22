@@ -49,7 +49,7 @@
     left: 0;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 960px) {
     .header-primary{
         display: none;
     }
