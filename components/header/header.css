@@ -4,7 +4,6 @@
 
 .container {
     box-sizing: initial;
-
 }
 
 .nav {
@@ -30,6 +29,12 @@
     flex-shrink: 0;
     justify-content: flex-start;
     white-space: nowrap;
+}
+
+.menu-icon{
+    background-color: transparent;
+    outline: none;
+    border: none;
 }
 
 .container {
@@ -78,4 +83,31 @@
 .nav-item {
     padding-bottom: 1.25rem;
     padding-top: 1.875rem;
+}
+
+@media screen and (max-width: 60rem){
+    .topper{
+    width: 100%;
+    }
+
+    .container{
+        justify-content: center;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    .is-hidden-y{
+        display: none !important;
+}
+    .nav-item .logo{
+        width: 70%;
+    }
+    .nav-left{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    .is-hidden-s{
+        display: none !important;
+    }
 }
