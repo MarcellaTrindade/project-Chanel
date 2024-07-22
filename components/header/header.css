@@ -101,13 +101,17 @@
     .nav-item .logo{
         width: 70%;
     }
-    .nav-left{
+    .nav-left, .nav-right{
         padding: 0;
+    }
+
+    .fixed-star{
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 60rem) {
     .is-hidden-s{
-        display: none !important;
+        display: block !important;
     }
 }
